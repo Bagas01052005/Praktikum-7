@@ -142,7 +142,6 @@ WHERE id_dept IN (SELECT id_dept FROM karyawan WHERE nama LIKE '%K%');
 *Output :*
 
 ![](Foto/3.png)
-
 ### 4. Tampilkan data karyawan yang bekerja pada departemen yang ada di kantor pusat.
 ```sql
 SELECT * FROM karyawan
